@@ -16,8 +16,11 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "CassetteOne",
+  title: "CassetteOne - Ambience & Music",
   description: "A retro design cassette player.",
+  itunes: {
+    appId: "6683308033",
+  },
 };
 
 export default function RootLayout({
