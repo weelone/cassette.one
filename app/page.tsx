@@ -24,6 +24,11 @@ export default function Home() {
           alt="Download on the App Store image"
         />
       </a>
+      <video
+        className="max-w-lg p-5"
+        src="https://cdn.cassette.one/preview-video.mov"
+        controls
+      />
     </div>
   );
 }
