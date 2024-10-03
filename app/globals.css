@@ -24,4 +24,14 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+
+  .bg-noise {
+    @apply relative isolate;
+  }
+
+  .bg-noise::before {
+    content: '';
+    @apply absolute inset-0 bg-[url('/noise.png')] bg-repeat bg-[length:128px_128px];
+    @apply mix-blend-overlay opacity-10;
+  }
 }
