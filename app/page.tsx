@@ -41,7 +41,7 @@ export default function Home() {
       </a>
       <div className="lg:max-w-md aspect-video">
         <video
-          className="lg:max-w-md rounded-xl shadow-lg shadow-neutral-900"
+          className="lg:max-w-md rounded-xl shadow-lg shadow-neutral-900 border border-neutral-800"
           src="https://cdn.cassette.one/preview-video.mov"
           controls
         />
