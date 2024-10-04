@@ -21,6 +21,16 @@ export const metadata: Metadata = {
   itunes: {
     appId: "6683308033",
   },
+  keywords: [
+    "Cassette",
+    "Player",
+    "LEMO FM",
+    "SOLOS",
+    "B Sides",
+    "White noise",
+    "Ambience",
+    "Apple Music",
+  ],
 };
 
 export default function RootLayout({
