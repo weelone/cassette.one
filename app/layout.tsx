@@ -22,14 +22,21 @@ export const metadata: Metadata = {
     appId: "6683308033",
   },
   keywords: [
+    "CassetteOne",
     "Cassette",
+    "One",
+    "Nooc",
+    "Weelone",
+    "Music",
     "Player",
     "LEMO FM",
     "SOLOS",
     "B Sides",
+    "Lo-Fi",
     "White noise",
     "Ambience",
     "Apple Music",
+    "Third-party",
   ],
 };
 

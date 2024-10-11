@@ -45,6 +45,7 @@ export default function Home() {
           href="https://www.producthunt.com/posts/cassetteone?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-cassetteone"
           target="_blank"
         >
+          {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             className="h-[40px] w-fit rounded-lg border border-neutral-400"
             src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=492825&theme=dark"
