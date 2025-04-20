@@ -71,6 +71,11 @@ export default function Home() {
           </a>
         </li>
         <li>
+          <a href="https://echobell.one" target="_blank">
+            Echobell
+          </a>
+        </li>
+        <li>
           <a href="https://nooc.me" target="_blank">
             Nooc
           </a>
