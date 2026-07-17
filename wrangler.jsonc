@@ -5,6 +5,7 @@
   "compatibility_flags": ["nodejs_compat"],
   "workers_dev": true,
   "preview_urls": true,
+  // SvelteKit writes the fully prerendered site to this directory.
   "assets": {
     "directory": "./build",
     "html_handling": "drop-trailing-slash",
