@@ -6,8 +6,6 @@
 </script>
 
 <svelte:head>
-  <title>CassetteOne - Ambience &amp; Music</title>
-  <meta name="description" content="A retro design cassette player." />
   <meta
     name="keywords"
     content="CassetteOne,Cassette,One,Nooc,Weelone,Music,Player,LEMO FM,SOLOS,B Sides,Lo-Fi,White noise,Ambience,Apple Music,Third-party"
