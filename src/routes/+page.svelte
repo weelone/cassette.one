@@ -1,3 +1,38 @@
+<script lang="ts">
+  import Seo from "$lib/Seo.svelte";
+
+  const description =
+    "CassetteOne is a retro-design cassette player for iPhone and iPad. Play built-in white noise and ambient sounds, or link Apple Music to play your own playlists.";
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    name: "CassetteOne",
+    operatingSystem: "iOS",
+    applicationCategory: "MultimediaApplication",
+    description,
+    url: "https://cassette.one/",
+    image: "https://cassette.one/app-icon.png",
+    downloadUrl: "https://apps.apple.com/us/app/cassetteone/id6683308033",
+    offers: {
+      "@type": "Offer",
+      price: "0",
+      priceCurrency: "USD",
+    },
+    author: {
+      "@type": "Organization",
+      name: "Weelone Ltd",
+      url: "https://weelone.com",
+    },
+  };
+</script>
+
+<Seo title="CassetteOne - Ambience &amp; Music" {description} path="/" />
+
+<svelte:head>
+  {@html `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>`}
+</svelte:head>
+
 <div
   class="min-w-full min-h-full flex flex-col p-5 gap-5 md:p-10 justify-center font-[family-name:var(--font-geist-sans)] bg-noise"
 >
@@ -10,7 +45,7 @@
       alt="Logo of CassetteOne"
     />
     <div class="flex flex-col">
-      <p class="font-bold mt-1 text-sm md:text-base">CassetteOne - Ambience &amp; Music</p>
+      <h1 class="font-bold mt-1 text-sm md:text-base">CassetteOne - Ambience &amp; Music</h1>
       <p class="opacity-60 text-xs md:text-base">Listen white noise, ambient sounds and music.</p>
     </div>
   </div>

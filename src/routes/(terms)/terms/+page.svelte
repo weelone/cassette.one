@@ -1,4 +1,14 @@
-<h2>CassetteOne Terms of Service</h2>
+<script lang="ts">
+  import Seo from "$lib/Seo.svelte";
+</script>
+
+<Seo
+  title="Terms of Service - CassetteOne"
+  description="The terms of service for using the CassetteOne app, operated by Weelone Ltd."
+  path="/terms"
+/>
+
+<h1>CassetteOne Terms of Service</h1>
 
 <p>Last Updated: 2024-09-14</p>
 
@@ -17,7 +27,7 @@
   terms, then you may not access the App.
 </p>
 
-<h3>Use of the App</h3>
+<h2>Use of the App</h2>
 
 <ol>
   <li><p>The CassetteOne App is provided for your personal, non-commercial use only.</p></li>
@@ -35,7 +45,7 @@
   </li>
 </ol>
 
-<h3>Intellectual Property</h3>
+<h2>Intellectual Property</h2>
 
 <p>
   The App and its original content, features, and functionality are and will remain the exclusive property
@@ -44,7 +54,7 @@
   with any product or service without the prior written consent of Weelone Ltd.
 </p>
 
-<h3>Changes</h3>
+<h2>Changes</h2>
 
 <p>
   We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision
@@ -52,7 +62,7 @@
   constitutes a material change will be determined at our sole discretion.
 </p>
 
-<h3>Disclaimer</h3>
+<h2>Disclaimer</h2>
 
 <p>
   Your use of the App is at your sole risk. The App is provided on an "AS IS" and "AS AVAILABLE" basis. The
@@ -61,14 +71,14 @@
   of performance.
 </p>
 
-<h3>Governing Law</h3>
+<h2>Governing Law</h2>
 
 <p>
   These Terms shall be governed and construed in accordance with the laws of [Your Country], without regard
   to its conflict of law provisions.
 </p>
 
-<h3>Contact Us</h3>
+<h2>Contact Us</h2>
 
 <p>If you have any questions about these Terms, please contact us:</p>
 

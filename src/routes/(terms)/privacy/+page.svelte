@@ -1,4 +1,14 @@
-<h2>CassetteOne Privacy Policy</h2>
+<script lang="ts">
+  import Seo from "$lib/Seo.svelte";
+</script>
+
+<Seo
+  title="Privacy Policy - CassetteOne"
+  description="CassetteOne collects no personal data — all settings and preferences stay on your device. Read the full privacy policy."
+  path="/privacy"
+/>
+
+<h1>CassetteOne Privacy Policy</h1>
 
 <p>Last updated: 2024-09-14</p>
 
@@ -8,21 +18,21 @@
   our App and the choices you have associated with that data.
 </p>
 
-<h3>Information Collection and Use</h3>
+<h2>Information Collection and Use</h2>
 
 <p>
   We do not collect any personal data or information from you when you use the CassetteOne App. Our App is
   designed to respect your privacy and operate entirely on your device.
 </p>
 
-<h3>Local Data Storage</h3>
+<h2>Local Data Storage</h2>
 
 <p>
   CassetteOne stores data locally on your device to save your settings and preferences. This data remains
   on your device and is not transmitted to us or any third parties.
 </p>
 
-<h3>Data Security</h3>
+<h2>Data Security</h2>
 
 <p>
   As we do not collect or store any of your personal data on our servers, the risk of your data being
@@ -30,18 +40,18 @@
   storage is 100% secure.
 </p>
 
-<h3>Changes to This Privacy Policy</h3>
+<h2>Changes to This Privacy Policy</h2>
 
 <p>
   We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new
   Privacy Policy on this page and updating the "Last updated" date at the top of this Privacy Policy.
 </p>
 
-<h3>Your Consent</h3>
+<h2>Your Consent</h2>
 
 <p>By using the CassetteOne App, you consent to our Privacy Policy.</p>
 
-<h3>Contact Us</h3>
+<h2>Contact Us</h2>
 
 <p>If you have any questions about this Privacy Policy, please contact us:</p>
 
